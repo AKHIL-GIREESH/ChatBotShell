@@ -28,7 +28,7 @@ const Text2Text = async () => {
       return;
     }
 
-    const result = await chat.sendMessage(" Answer without any bold charcters"+prompt)
+    const result = await chat.sendMessage(prompt)
     const response = await result.response;
     const text = response.text();
 
