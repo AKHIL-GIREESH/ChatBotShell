@@ -38,7 +38,7 @@ const Text2Text = async () => {
   })
 
   rl.on('close', () => {
-    console.log('Input stream closed.');
+    console.log('Have a nice day 🥂');
     return
   });
 
