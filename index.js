@@ -28,14 +28,11 @@ const Text2Text = async () => {
       return;
     }
 
-    console.log(prompt)
-
     const result = await chat.sendMessage(" Answer without any bold charcters"+prompt)
     const response = await result.response;
     const text = response.text();
 
     console.log(text+"\n\n");
-    console.log(history)
   })
 
   rl.on('close', () => {
