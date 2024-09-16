@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require("fs");
 const readline = require('readline');
