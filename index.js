@@ -22,7 +22,7 @@ const Text2Text = async () => {
   })
 
   rl.on('line', async (prompt) => {
-    if (prompt.trim().toLowerCase() === 'stop') {
+    if (prompt.trim().toLowerCase() === 'q') {
       console.log("Terminating...");
       rl.close();
       return;
